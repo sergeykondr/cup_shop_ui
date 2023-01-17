@@ -314,6 +314,8 @@ class ProductTitileWithImage extends StatelessWidget {
   final Product product;
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
       child: Column(
@@ -332,8 +334,7 @@ class ProductTitileWithImage extends StatelessWidget {
           ),
           SizedBox(height: kDefaultPadding),
           Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            //crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -350,7 +351,7 @@ class ProductTitileWithImage extends StatelessWidget {
               SizedBox(width: kDefaultPadding),
               Image.asset(
                 product.image,
-                width: 260,
+                width: width / 2,
                 fit: BoxFit.fitWidth,
               )
             ],

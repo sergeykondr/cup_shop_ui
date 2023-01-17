@@ -37,7 +37,7 @@ class Body1 extends StatelessWidget {
             child: GridView.builder(
               itemCount: products.length,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2, childAspectRatio: 0.72),
+                  crossAxisCount: 2, childAspectRatio: 0.70),
               itemBuilder: (context, index) => ItemCard(
                 products[index],
                 () => Navigator.push(

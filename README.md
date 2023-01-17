@@ -5,3 +5,5 @@ Category page
 Product page
 # Model
 Product Model
+# Demo
+![](cups_shop_demo.gif)
