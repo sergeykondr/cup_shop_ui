@@ -1,11 +1,7 @@
-//import 'package:bags_shop/constants.dart';
-
-//import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:leather_goods_shop/constants.dart';
-import 'package:leather_goods_shop/models/Product.dart';
+import 'package:cups_shop/constants.dart';
+import 'package:cups_shop/models/Product.dart';
 
 class DetailsScreen extends StatelessWidget {
   final Product product;

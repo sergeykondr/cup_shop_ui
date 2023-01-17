@@ -11,8 +11,6 @@ class Body1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //final childrenItem =
-    List<Widget>.generate(100, (i) => Text('Item $i')).toList();
 
     return Container(
       padding: EdgeInsets.symmetric(horizontal: kDefaultPadding),
@@ -34,7 +32,7 @@ class Body1 extends StatelessWidget {
           //     children: childrenItem,
           //   ),
           // ),
-          Categories(),
+          Categories(), //!!!!!!!!!!!!!!!!!!!!!!!!
           Expanded(
             child: GridView.builder(
               itemCount: products.length,
@@ -169,7 +167,7 @@ class _CategoriesState extends State<Categories> {
                   ),
                   Container(
                     height: 2,
-                    width: 30,
+                    width: 45,
                     color: selectedIndex == index
                         ? Colors.black
                         : Colors.transparent,

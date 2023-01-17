@@ -5,7 +5,6 @@ import 'constants.dart';
 import 'screens/home_screen.dart';
 
 void main() {
-  
   runApp(MyApp());
 }
 
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Leather goods',
+      title: 'Товары для кухни',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),

@@ -1,4 +1,4 @@
-# bags_shop
+# cups_shop
 #UI
 # Pages
 Category page

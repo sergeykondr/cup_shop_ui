@@ -1,6 +1,6 @@
 {
-    "name": "bags_shop",
-    "short_name": "bags_shop",
+    "name": "cups_shop",
+    "short_name": "cups_shop",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
